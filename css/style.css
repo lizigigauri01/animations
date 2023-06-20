@@ -65,11 +65,26 @@
    100% {
        left: 800px; bottom: 50px;
 }
+}
+
 
 .burti {
     position: absolute;
-    width: 20px;
-    height: 20px;
-    top: 50px;
-    animation: bounce 10s infinite;
+    width: 40px;
+    height: 40px;
+    left: 900px;
+    top: 300px;
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce{
+    0% {
+    top: 300px;
+  }
+  50% {
+    top: 200px;
+  }
+  100% {
+    top: 300px;
+  }
 }
