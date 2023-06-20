@@ -71,18 +71,8 @@ body {
 }
 
 @keyframes driving{
-    0% {
-      left: 0px; bottom: 50px; 
-   }
-   25% {
-        left: 200px; bottom: 50px;
-   }
-   50% {
-        left: 400px; bottom: 50px;
-   }
-   100% {
-       left: 800px; bottom: 50px;
-}
+    from { left: 0px; bottom: 50px;}
+    to {left: 800px; bottom: 50px;}
 }
 
 
