@@ -11,7 +11,7 @@
 
 .birds {
     position: absolute;
-    top: 50px;
+    top: 100px;
     left: 350px;
     width: 300px;
     animation: bird 20s infinite linear;
@@ -22,7 +22,7 @@
     { left: 0px; }
 
     100%
-     { left: 1500px; }
+     { left: 1000px; }
 }
 
 
@@ -36,10 +36,10 @@
         bottom: 0px; width: 200px;
     }
     25% {
-        bottom: 170px; width: 200px;
+        bottom: 100px; width: 200px;
     }
     100% {
-        bottom: 170px; left: 300px;
+        bottom: 100px; left: 300px; width: 200px;
     }
 
 }
