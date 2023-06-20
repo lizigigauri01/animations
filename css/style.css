@@ -65,3 +65,11 @@
    100% {
        left: 800px; bottom: 50px;
 }
+
+.burti {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50px;
+    animation: bounce 10s infinite;
+}
